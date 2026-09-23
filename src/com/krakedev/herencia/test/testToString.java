@@ -1,0 +1,14 @@
+package com.krakedev.herencia.test;
+
+import com.krakedev.herencia.Padre;
+
+public class testToString {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Padre p=new Padre(5,5);
+		System.out.println(p);
+
+	}
+
+}

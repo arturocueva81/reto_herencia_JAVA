@@ -10,17 +10,17 @@ public class TestArrayList {
 		// TODO Auto-generated method stub
 		ArrayList<Hija> listaHijas = new ArrayList<Hija>();
 		
-		Hija h1=new Hija(2,4);
+		Hija h1=new Hija(null, 2,4);
 		h1.setDefectos(2);
 		h1.setVirtudes(4);
 		listaHijas.add(h1);
 		
-		Hija h2=new Hija(6,1);
+		Hija h2=new Hija(null, 6,1);
 		h2.setDefectos(6);
 		h2.setVirtudes(1);
 		listaHijas.add(h2);
 		
-		Hija h3=new Hija(3,3);
+		Hija h3=new Hija(null, 3,3);
 		h3.setDefectos(3);
 		h3.setVirtudes(3);
 		listaHijas.add(h3);

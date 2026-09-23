@@ -6,7 +6,7 @@ public class TestToString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Padre p=new Padre(5,5);
+		Padre p=new Padre(null, 5,5);
 		System.out.println(p);
 
 	}

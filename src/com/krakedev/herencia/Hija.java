@@ -3,8 +3,8 @@ package com.krakedev.herencia;
 public class Hija extends Padre{
 
 //	es el constructor por default
-	public Hija(int virtudes, int defectos) {
-		super(virtudes, defectos);
+	public Hija(String nombre, int virtudes, int defectos) {
+		super(nombre, virtudes, defectos);
 	}
 	
 	public void escucharMusica() {
@@ -13,7 +13,7 @@ public class Hija extends Padre{
 
 	@Override
 	public String toString() {
-		return "defectos "+getDefectos()+" virtudes "+getVirtudes();
+		return "nombre: "+getNombre()+", defectos "+getDefectos()+" virtudes "+getVirtudes();
 	}
 	
 }
